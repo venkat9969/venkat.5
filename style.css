@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+#tiffin{
+    background-image:url(tiffin.jpeg)
+}
+#about{
+    background-color: rgb(25, 148, 142);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% transparent white */
+    background-color: transparent;
+}
+#transparent{
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(tiffin.jpeg);
+    background: transparent;
+    background-color: transparent;
+}
+#home{
+    background-image: url(tiffin.jpeg);
+    float: right;
+      
+
+
+}
+#right1{
+    float:right;
+}
+#box{
+    background-color: transparent;
+    
+}
+#menu{
+    display:block;
+    float: right;
+    background-image: url(tiffin4.jpeg);
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+   
+    background-color: transparent;
+    align-items:center;
+    position: static;
+
+}
+
+#about{
+    background-image: url(tiffin2.jpeg);
+    background-repeat: no-repeat;
+    left: 100px;
+    right:100px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+   
+    
+}
+
+
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#contact{
+    background-image: url(tiffin5.jpeg);
+    background-repeat:no-repeat;
+    background-color: transparent;
+}
+
+button:hover:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+#whole{
+    background-color: green;
+    background-image: url();
+
+}
